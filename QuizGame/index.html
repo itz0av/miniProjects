@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QizGame</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz App</h1>
+        <div id="question-box">
+            <h2 id="Question"></h2>
+            <div id="options">
+                <ul id="options-name">
+                    <!-- there inject the options -->
+                    <!-- <li>option1</li>
+                    <li>option2</li>
+                    <li>option3</li>
+                    <li>option4</li> -->
+                </ul>
+            </div>
+        </div>
+        <div id="score-div" class="hidden">
+            <h2>You Score</h2>
+            <p id="score">3 out of 4</p>
+            <button id="Restart-btn" class="hidden">Restart</button>
+        </div>
+        <div id="btn-div">
+            <button id="start-btn" >Start Quiz</button><br>
+            <button id="next-btn" class="hidden">Next Question</button><br>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
