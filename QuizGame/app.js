@@ -29,86 +29,86 @@ const quizQuestions = [
       ],
       correctAnswer: "JavaScript"
     },
-    // {
-    //   question: "Which company developed React.js?",
-    //   options: [
-    //     "Google",
-    //     "Facebook",
-    //     "Microsoft",
-    //     "Apple"
-    //   ],
-    //   correctAnswer: "Facebook"
-    // },
-    // {
-    //   question: "Which CSS framework is utility-first?",
-    //   options: [
-    //     "Bootstrap",
-    //     "Foundation",
-    //     "TailwindCSS",
-    //     "Materialize"
-    //   ],
-    //   correctAnswer: "TailwindCSS"
-    // },
-    // {
-    //   question: "What does SQL stand for?",
-    //   options: [
-    //     "Structured Query Language",
-    //     "Simple Query Language",
-    //     "Structured Question Language",
-    //     "Sequential Query Language"
-    //   ],
-    //   correctAnswer: "Structured Query Language"
-    // },
-    // {
-    //   question: "Which of the following is a NoSQL database?",
-    //   options: [
-    //     "MongoDB",
-    //     "MySQL",
-    //     "PostgreSQL",
-    //     "Oracle"
-    //   ],
-    //   correctAnswer: "MongoDB"
-    // },
-    // {
-    //   question: "What is the extension of a JavaScript file?",
-    //   options: [
-    //     ".js",
-    //     ".java",
-    //     ".jsx",
-    //     ".json"
-    //   ],
-    //   correctAnswer: ".js"
-    // },
-    // {
-    //   question: "Which HTTP method is used to create data?",
-    //   options: [
-    //     "GET",
-    //     "POST",
-    //     "PUT",
-    //     "DELETE"
-    //   ],
-    //   correctAnswer: "POST"
-    // },
-    // {
-    //   question: "What does API stand for?",
-    //   options: [
-    //     "Application Programming Interface",
-    //     "Application Process Integration",
-    //     "Automated Program Interaction",
-    //     "Applied Programming Interface"
-    //   ],
-    //   correctAnswer: "Application Programming Interface"
-    // },
-    // {
-    //   question: "Which of the following is used to style web pages?",
-    //   options: [
-    //     "HTML",
-    //     "CSS",
-    //     "JavaScript",
-    //     "Node.js"
-    //   ],
-    //   correctAnswer: "CSS"
-    // }
+    {
+      question: "Which company developed React.js?",
+      options: [
+        "Google",
+        "Facebook",
+        "Microsoft",
+        "Apple"
+      ],
+      correctAnswer: "Facebook"
+    },
+    {
+      question: "Which CSS framework is utility-first?",
+      options: [
+        "Bootstrap",
+        "Foundation",
+        "TailwindCSS",
+        "Materialize"
+      ],
+      correctAnswer: "TailwindCSS"
+    },
+    {
+      question: "What does SQL stand for?",
+      options: [
+        "Structured Query Language",
+        "Simple Query Language",
+        "Structured Question Language",
+        "Sequential Query Language"
+      ],
+      correctAnswer: "Structured Query Language"
+    },
+    {
+      question: "Which of the following is a NoSQL database?",
+      options: [
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "Oracle"
+      ],
+      correctAnswer: "MongoDB"
+    },
+    {
+      question: "What is the extension of a JavaScript file?",
+      options: [
+        ".js",
+        ".java",
+        ".jsx",
+        ".json"
+      ],
+      correctAnswer: ".js"
+    },
+    {
+      question: "Which HTTP method is used to create data?",
+      options: [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      correctAnswer: "POST"
+    },
+    {
+      question: "What does API stand for?",
+      options: [
+        "Application Programming Interface",
+        "Application Process Integration",
+        "Automated Program Interaction",
+        "Applied Programming Interface"
+      ],
+      correctAnswer: "Application Programming Interface"
+    },
+    {
+      question: "Which of the following is used to style web pages?",
+      options: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js"
+      ],
+      correctAnswer: "CSS"
+    }
   ];
 let indexOfQuestion = 0;
 let rightQuestions = 0;
